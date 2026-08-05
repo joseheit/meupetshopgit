@@ -411,6 +411,12 @@ padding-bottom: 20px;
   text-align: center;
 }
 
+.direitosReservadosParagrafo {
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+}
+
 /* summary */
 
 summary {
