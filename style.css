@@ -117,7 +117,7 @@ h2 {
 }
 
 .inicioBotao {
- background-color: #ffd700;
+  background-color: #ffd700;
   color: #ffffff;
   padding: 12px 20px;
   border-radius: 10px;
@@ -160,8 +160,8 @@ h2 {
 .sobreConteudo {
   display: grid;
   gap: 20px;
-width: 100%;  
-padding-bottom: 20px;
+  width: 100%;
+  padding-bottom: 20px;
 }
 
 .paragrafoSobre {
@@ -235,24 +235,24 @@ padding-bottom: 20px;
 }
 
 .containerServicosBotao {
-    display: flex;
-    justify-content: center;
-    margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
 }
 
 .servicosBotao {
-    background-color:#ffd700;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    padding: 10px 25px;
-    font-size: 18px;
-    font-weight: bold;
-    cursor: pointer;
+  background-color: #ffd700;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 25px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .servicosBotao:hover {
-    background-color: #5eb9dd;
+  background-color: #5eb9dd;
 }
 
 .servicosCards {
@@ -378,32 +378,32 @@ padding-bottom: 20px;
 }
 
 .botaoFormulario button {
-    background-color: #ffd700;
-    color: #ffffff;
-    border: none;
-    border-radius: 8px;
-    padding: 10px 25px;
-    font-size: 18px;
-    font-weight: bold;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    gap: 6px;
+  background-color: #ffd700;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 25px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
 }
 
 .botaoFormulario button .material-symbols-outlined {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 .botaoFormulario button:hover {
-    background-color: #5eb9dd;
+  background-color: #5eb9dd;
 }
 
 #mensagemConfirmacao {
-    color: rgb(74, 246, 77);
-    font-weight: bold;
-    text-align: center;
-    margin-top: 15px;
+  color: rgb(74, 246, 77);
+  font-weight: bold;
+  text-align: center;
+  margin-top: 15px;
 }
 
 
@@ -472,9 +472,9 @@ details[open] .seta {
   }
 
   .sobreIndicadores,
-.sobreDiv {
-  transform: none;
-}
+  .sobreDiv {
+    transform: none;
+  }
 
   #img2 {
     justify-self: center;
@@ -486,8 +486,22 @@ details[open] .seta {
     align-items: flex-start;
   }
 
+  .enderecoParagrafo {
+    font-size: 18px;
+    gap: 5px;
+    flex-wrap: wrap;
+  }
+
+  .enderecoSpan {
+    font-size: 22px;
+  }
+
   .contatoFormulario {
     width: 100%;
+  }
+
+  .direitosReservadosParagrafo {
+    font-size: 12px;
   }
 
   .contatoFormulario input,
