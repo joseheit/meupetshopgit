@@ -18,6 +18,7 @@ body {
 a {
   color: #ffd700;
   text-decoration: none;
+  font-size: 30px;
 }
 
 h1 span {
@@ -30,7 +31,7 @@ h1 span {
 h1 {
   font-family: "Pacifico", sans-serif;
   color: #ffb300;
-  font-size: 60px;
+  font-size: 80px;
 }
 
 h2 {
@@ -330,13 +331,13 @@ padding-bottom: 20px;
 .enderecoParagrafo {
   display: flex;
   align-items: center;
+  font-size: 25px;
   gap: 8px;
 }
 
 .enderecoSpan {
   font-family: "Signika", sans-serif;
-
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
 }
 
@@ -396,6 +397,13 @@ padding-bottom: 20px;
 
 .botaoFormulario button:hover {
     background-color: #5eb9dd;
+}
+
+#mensagemConfirmacao {
+    color: rgb(74, 246, 77);
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
 }
 
 
